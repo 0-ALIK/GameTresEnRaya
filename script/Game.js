@@ -31,6 +31,8 @@ export default class Game
 
             if(this.#bodyDOM.children[2].classList.contains("message"))
                 this.#bodyDOM.removeChild(this.#bodyDOM.children[2])
+		
+	console.log("Reseteado")	
         })
     }
 
